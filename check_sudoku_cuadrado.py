@@ -6,7 +6,7 @@ def check_sudoku_cuadrado(sudoku):
             return False
     return True
 
-
+# A partir de aqui el código no se ejecutará
 if __name__ == '__main__':
     assert check_sudoku_cuadrado([[1, 2, 3], [2, 3, 1], [3, 1, 2]]) == True
     assert check_sudoku_cuadrado([[1, 2, 3, 4], [2, 3, 1, 3], [

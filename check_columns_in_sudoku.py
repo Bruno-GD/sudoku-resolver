@@ -12,7 +12,7 @@ def check_columns_in_sudoku(sudoku):
         counter -= 1
     return True
 
-
+# Esta parte del código no se va a ejecutar
 if __name__ == '__main__':
     assert check_columns_in_sudoku([[1, 2, 3],
                                     [2, 3, 1],
