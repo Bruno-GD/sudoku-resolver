@@ -7,7 +7,7 @@ def check_sudoku(sudoku):
 
     return check_sudoku_cuadrado(sudoku) and check_numbers_in_range(sudoku) and check_rows_in_sudoku(sudoku) and check_columns_in_sudoku(sudoku)
 
-
+# A partir de aqui el código no se ejecutará
 if __name__ == '__main__':
     assert check_sudoku([[1, 2, 3],
                         [2, 3, 1],
